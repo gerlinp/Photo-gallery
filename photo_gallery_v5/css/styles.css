@@ -1,0 +1,32 @@
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    max-width: 900px;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-template-rows: 200px 200px;
+    grid-gap: 20px;
+}
+
+.grid-item {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+input{
+    padding: 20px 100px 20px 20px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    text-align: start;
+    width: 45%;
+}
